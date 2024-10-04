@@ -1,0 +1,30 @@
+name: "django-project"
+
+services:
+  django:
+    build: .
+    image: django-image:1.0
+    container_name: django-container
+    env_file:
+      - .env.docker
+    command: python manage.py runserver 0.0.0.0:8000
+    # volumes:
+    #   - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7.4.0-alpine
+    container_name: redis-container
+
+  celery:
+    build: .
+    image: django-image:1.0
+    container_name: celery-container
+    env_file:
+      - .env.docker
+    command: celery -A main worker -l info
+    depends_on:
+      - redis

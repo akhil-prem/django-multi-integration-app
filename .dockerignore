@@ -1,0 +1,36 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore environment variables and credentials
+.env*
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore version control system files
+.git/
+.gitignore
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore other temporary files
+*.swp
+*.bak
+.DS_Store
