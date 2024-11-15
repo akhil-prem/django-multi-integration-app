@@ -1,23 +1,67 @@
 amqp==5.2.0
 asgiref==3.8.1
 async-timeout==4.0.3
+attrs==24.2.0
+autobahn==23.1.2
+Automat==24.8.1
+backports.entry-points-selectable==1.1.0
 backports.zoneinfo==0.2.1
 billiard==4.2.1
+brotlipy==0.7.0
 celery==5.4.0
+certifi==2020.12.5
+cffi==1.17.1
+channels==4.1.0
+chardet @ file:///C:/ci/chardet_1607690654534/work
 click==8.1.7
 click-didyoumean==0.3.1
 click-plugins==1.1.1
 click-repl==0.3.0
 colorama==0.4.6
+conda==4.9.2
+conda-package-handling @ file:///C:/ci/conda-package-handling_1603003327818/work
+constantly==23.10.4
+cryptography==43.0.1
+daphne==4.1.2
+distlib==0.3.2
 Django==4.2.16
+django-environ==0.9.0
 djangorestframework==3.15.2
+djangorestframework-simplejwt==5.3.1
+filelock==3.0.12
+hyperlink==21.0.0
+idna==3.10
+incremental==24.7.2
 kombu==5.4.2
+menuinst==1.4.16
+platformdirs==2.2.0
 prompt_toolkit==3.0.48
+psycopg2==2.9.5
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+pycosat==0.6.3
+pycparser==2.22
+PyJWT==2.9.0
+pyOpenSSL==24.2.1
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
 python-dateutil==2.9.0.post0
+pywin32==227
 redis==5.1.0
+requests @ file:///tmp/build/80754af9/requests_1608241421344/work
+ruamel_yaml==0.15.87
+service-identity==24.1.0
 six==1.16.0
 sqlparse==0.5.1
+tomli==2.0.2
+tqdm @ file:///tmp/build/80754af9/tqdm_1611857934208/work
+Twisted==24.7.0
+txaio==23.1.1
 typing_extensions==4.12.2
 tzdata==2024.2
+urllib3 @ file:///tmp/build/80754af9/urllib3_1611694770489/work
 vine==5.1.0
+virtualenv==20.7.2
 wcwidth==0.2.13
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+wincertstore==0.2
+zope.interface==7.0.3

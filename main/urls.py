@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('celery/', include('celeryapp.urls')),
     path('channel/', include('channelapp.urls')),
+    path('account/', include('userapp.urls')),
 ]
